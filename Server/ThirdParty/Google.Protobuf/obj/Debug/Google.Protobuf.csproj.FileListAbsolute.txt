@@ -1,0 +1,10 @@
+H:\ETBFP\ET-master\Bin\Google.Protobuf.deps.json
+H:\ETBFP\ET-master\Bin\Google.Protobuf.dll
+H:\ETBFP\ET-master\Bin\Google.Protobuf.pdb
+H:\ETBFP\ET-master\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csprojAssemblyReference.cache
+H:\ETBFP\ET-master\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CoreCompileInputs.cache
+H:\ETBFP\ET-master\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfoInputs.cache
+H:\ETBFP\ET-master\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfo.cs
+H:\ETBFP\ET-master\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CopyComplete
+H:\ETBFP\ET-master\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.dll
+H:\ETBFP\ET-master\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.pdb

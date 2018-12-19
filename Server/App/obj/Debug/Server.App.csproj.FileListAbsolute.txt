@@ -1,0 +1,17 @@
+H:\ETBFP\ET-master\Bin\libkcp.dylib
+H:\ETBFP\ET-master\Bin\libkcp.so
+H:\ETBFP\ET-master\Bin\kcp.dll
+H:\ETBFP\ET-master\Bin\NLog.config
+H:\ETBFP\ET-master\Bin\App.dll.config
+H:\ETBFP\ET-master\Bin\App.deps.json
+H:\ETBFP\ET-master\Bin\App.runtimeconfig.json
+H:\ETBFP\ET-master\Bin\App.runtimeconfig.dev.json
+H:\ETBFP\ET-master\Bin\App.dll
+H:\ETBFP\ET-master\Bin\App.pdb
+H:\ETBFP\ET-master\Server\App\obj\Debug\Server.App.csprojAssemblyReference.cache
+H:\ETBFP\ET-master\Server\App\obj\Debug\Server.App.csproj.CoreCompileInputs.cache
+H:\ETBFP\ET-master\Server\App\obj\Debug\Server.App.AssemblyInfoInputs.cache
+H:\ETBFP\ET-master\Server\App\obj\Debug\Server.App.AssemblyInfo.cs
+H:\ETBFP\ET-master\Server\App\obj\Debug\Server.App.csproj.CopyComplete
+H:\ETBFP\ET-master\Server\App\obj\Debug\App.dll
+H:\ETBFP\ET-master\Server\App\obj\Debug\App.pdb

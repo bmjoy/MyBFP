@@ -1,0 +1,563 @@
+2018-12-15 17:24:47.4922 AllServer 001 (Log.cs:51) { "_t" : "C2R_Login", "RpcId" : 1, "Account" : "111", "Password" : "111111" }
+2018-12-15 17:24:48.0290 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "111" }
+2018-12-15 17:24:48.4451 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "111" }
+2018-12-15 17:24:48.8192 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("5280862640724485623") }
+2018-12-15 17:24:49.1480 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("5280862640724485623") }
+2018-12-15 17:24:49.2968 AllServer 001 (Log.cs:51) { "_t" : "R2C_Login", "RpcId" : 1, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("5280862640724485623") }
+2018-12-15 17:24:49.6070 AllServer 001 (Log.cs:51) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("5280862640724485623") }
+2018-12-15 17:24:49.8465 AllServer 001 (Log.cs:51) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong("382719307612249") }
+2018-12-15 17:24:49.9550 AllServer 001 (Log.cs:51) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2018-12-15 17:24:50.5116 AllServer 001 (Log.cs:51) { "_t" : "C2G_PlayerInfo", "RpcId" : 3 }
+2018-12-15 17:24:50.8568 AllServer 001 (Log.cs:51) { "_t" : "G2C_PlayerInfo", "RpcId" : 3, "Error" : 0, "Message" : "", "PlayerInfo" : { "RpcId" : 0 }, "PlayerInfos" : [{ "RpcId" : 1 }, { "RpcId" : 2 }, { "RpcId" : 3 }], "TestRepeatedString" : ["9", "10"], "TestRepeatedInt32" : [4, 5, 6], "TestRepeatedInt64" : [NumberLong(7), NumberLong(8)] }
+2018-12-15 17:24:53.6597 AllServer 001 (Log.cs:51) { "_t" : "C2G_EnterMap", "RpcId" : 1 }
+2018-12-15 17:24:53.9662 AllServer 001 (Log.cs:51) { "_t" : "G2M_CreateUnit", "RpcId" : 2, "PlayerId" : NumberLong("382719307612249"), "GateSessionId" : NumberLong("382719307612247") }
+2018-12-15 17:24:54.2671 AllServer 001 (Log.cs:51) { "_t" : "G2M_CreateUnit", "RpcId" : 2, "PlayerId" : NumberLong("382719307612249"), "GateSessionId" : NumberLong("382719307612247") }
+2018-12-15 17:24:54.6093 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddRequest", "RpcId" : 3, "Key" : NumberLong("382719307939935"), "InstanceId" : NumberLong("382719307939937") }
+2018-12-15 17:24:54.8816 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddRequest", "RpcId" : 3, "Key" : NumberLong("382719307939935"), "InstanceId" : NumberLong("382719307939937") }
+2018-12-15 17:24:55.6006 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddResponse", "RpcId" : 3, "Error" : 0, "Message" : null }
+2018-12-15 17:24:55.8058 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddResponse", "RpcId" : 3, "Error" : 0, "Message" : null }
+2018-12-15 17:24:56.1411 AllServer 001 (Log.cs:51) { "_t" : "M2C_CreateUnits", "RpcId" : 0, "ActorId" : NumberLong("382719307612247"), "Units" : [{ "UnitId" : NumberLong("382719307939935"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0 }] }
+2018-12-15 17:24:56.4503 AllServer 001 (Log.cs:51) { "_t" : "M2C_CreateUnits", "RpcId" : 0, "ActorId" : NumberLong("382719307612247"), "Units" : [{ "UnitId" : NumberLong("382719307939935"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0 }] }
+2018-12-15 17:24:56.6905 AllServer 001 (Log.cs:51) { "_t" : "M2C_CreateUnits", "RpcId" : 0, "ActorId" : NumberLong(0), "Units" : [{ "UnitId" : NumberLong("382719307939935"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0 }] }
+2018-12-15 17:24:56.9294 AllServer 001 (Log.cs:51) { "_t" : "M2G_CreateUnit", "Units" : [], "RpcId" : 2, "Error" : 0, "Message" : null, "UnitId" : NumberLong("382719307939935") }
+2018-12-15 17:24:57.0944 AllServer 001 (Log.cs:51) { "_t" : "M2G_CreateUnit", "Units" : [], "RpcId" : 2, "Error" : 0, "Message" : null, "UnitId" : NumberLong("382719307939935") }
+2018-12-15 17:24:57.3078 AllServer 001 (Log.cs:51) { "_t" : "G2C_EnterMap", "RpcId" : 1, "Error" : 0, "Message" : "", "UnitId" : NumberLong("382719307939935"), "Units" : [] }
+2018-12-15 17:25:00.2014 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -7.0328998565673828, "Y" : 0.010000000707805157, "Z" : -13.767650604248047 }
+2018-12-15 17:25:00.4254 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 4, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:00.6776 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:00.9632 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 5, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:01.5579 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:01.7792 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 6, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:01.9942 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:02.1795 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 7, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:02.2914 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -11.828375816345215, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:02.4173 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 8, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:02.4602 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -10.236943244934082, "Y" : 0.010000000707805157, "Z" : 0.0060176849365234375 }
+2018-12-15 17:25:02.5894 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 9, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:02.6848 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -9.8586559295654297, "Y" : 0.010000000707805157, "Z" : 1.9757289886474609 }
+2018-12-15 17:25:02.7168 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 10, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:02.9361 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -9.7658624649047852, "Y" : 0.010000000707805157, "Z" : 1.9757251739501953 }
+2018-12-15 17:25:03.4686 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 11, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:03.7367 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -9.7658624649047852, "Y" : 0.010000000707805157, "Z" : 1.9757251739501953 }
+2018-12-15 17:25:04.0810 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 12, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:04.3971 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetRequest", "RpcId" : 4, "Key" : NumberLong("382719307939935") }
+2018-12-15 17:25:04.6430 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetRequest", "RpcId" : 4, "Key" : NumberLong("382719307939935") }
+2018-12-15 17:25:05.4374 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetResponse", "RpcId" : 4, "Error" : 0, "Message" : null, "InstanceId" : NumberLong("382719307939937") }
+2018-12-15 17:25:05.6773 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetResponse", "RpcId" : 4, "Error" : 0, "Message" : null, "InstanceId" : NumberLong("382719307939937") }
+2018-12-15 17:25:06.0924 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 5, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -7.0328998565673828, "Y" : 0.010000000707805157, "Z" : -13.767650604248047 }
+2018-12-15 17:25:06.3855 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 5, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -7.0328998565673828, "Y" : 0.010000000707805157, "Z" : -13.767650604248047 }
+2018-12-15 17:25:06.6523 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 5, "Error" : 0, "Message" : null }
+2018-12-15 17:25:06.8055 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 5, "Error" : 0, "Message" : null }
+2018-12-15 17:25:07.3083 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-10, 0, -10),(-9, 0, -13.4),(-7.6, 0, -14),(-7.0329, 0, -14),
+2018-12-15 17:25:07.5134 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0, "Xs" : [-9.0, -7.6000003814697266, -7.0328998565673828], "Ys" : [0.0, 0.0, 0.0], "Zs" : [-13.40000057220459, -14.000000953674316, -14.000000953674316] }
+2018-12-15 17:25:07.7723 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0, "Xs" : [-9.0, -7.6000003814697266, -7.0328998565673828], "Ys" : [0.0, 0.0, 0.0], "Zs" : [-13.40000057220459, -14.000000953674316, -14.000000953674316] }
+2018-12-15 17:25:08.0661 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719307939935"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0, "Xs" : [-9.0, -7.6000003814697266, -7.0328998565673828], "Ys" : [0.0, 0.0, 0.0], "Zs" : [-13.40000057220459, -14.000000953674316, -14.000000953674316] }
+2018-12-15 17:25:08.3106 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 6, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:08.4867 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 6, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:08.6398 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 6, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:08.8755 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 6, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:09.0120 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 4, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:09.2658 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 7, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:09.3822 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 7, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:09.6480 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 7, "Error" : 0, "Message" : null }
+2018-12-15 17:25:09.8734 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 7, "Error" : 0, "Message" : null }
+2018-12-15 17:25:10.1789 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-10, 0, -10),(-11.75215, 0, -14.45282),
+2018-12-15 17:25:10.4136 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -9.0, "Y" : 0.0, "Z" : -13.40000057220459, "Xs" : [-11.752153396606445], "Ys" : [0.0], "Zs" : [-14.452816009521484] }
+2018-12-15 17:25:10.6498 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -9.0, "Y" : 0.0, "Z" : -13.40000057220459, "Xs" : [-11.752153396606445], "Ys" : [0.0], "Zs" : [-14.452816009521484] }
+2018-12-15 17:25:11.0487 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719307939935"), "X" : -9.0, "Y" : 0.0, "Z" : -13.40000057220459, "Xs" : [-11.752153396606445], "Ys" : [0.0], "Zs" : [-14.452816009521484] }
+2018-12-15 17:25:11.3748 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 8, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:11.5142 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 8, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:11.9141 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 8, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:12.3257 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 8, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:12.5120 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 5, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:12.7780 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 9, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:13.0616 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 9, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:13.2646 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 9, "Error" : 0, "Message" : null }
+2018-12-15 17:25:13.4651 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 9, "Error" : 0, "Message" : null }
+2018-12-15 17:25:13.5974 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 10, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:13.7454 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 10, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:13.9859 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 10, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:14.3142 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 10, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:14.5139 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 6, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:14.7265 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 11, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:14.9083 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 11, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.752153396606445, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:15.0954 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 11, "Error" : 0, "Message" : null }
+2018-12-15 17:25:15.2922 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 11, "Error" : 0, "Message" : null }
+2018-12-15 17:25:15.4746 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 12, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:15.5955 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 12, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:15.6709 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 12, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:15.7786 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 12, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:16.1957 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 7, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:16.4398 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 13, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.828375816345215, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:16.6568 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 13, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -11.828375816345215, "Y" : 0.010000000707805157, "Z" : -14.452816009521484 }
+2018-12-15 17:25:16.8028 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 13, "Error" : 0, "Message" : null }
+2018-12-15 17:25:16.8599 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 13, "Error" : 0, "Message" : null }
+2018-12-15 17:25:16.9204 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 14, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:16.9615 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 14, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:16.9966 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 14, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.0300 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 14, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.0765 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 8, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.1265 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 15, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -10.236943244934082, "Y" : 0.010000000707805157, "Z" : 0.0060176849365234375 }
+2018-12-15 17:25:17.1575 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 15, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -10.236943244934082, "Y" : 0.010000000707805157, "Z" : 0.0060176849365234375 }
+2018-12-15 17:25:17.1789 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 15, "Error" : 0, "Message" : null }
+2018-12-15 17:25:17.2018 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 15, "Error" : 0, "Message" : null }
+2018-12-15 17:25:17.2229 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-9, 0, -13.4),(-10.23694, 0, 0.00601685),
+2018-12-15 17:25:17.2423 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -11.752153396606445, "Y" : 0.0, "Z" : -14.452816009521484, "Xs" : [-10.236943244934082], "Ys" : [0.0], "Zs" : [0.006016850471496582] }
+2018-12-15 17:25:17.2585 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -11.752153396606445, "Y" : 0.0, "Z" : -14.452816009521484, "Xs" : [-10.236943244934082], "Ys" : [0.0], "Zs" : [0.006016850471496582] }
+2018-12-15 17:25:17.2772 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719307939935"), "X" : -11.752153396606445, "Y" : 0.0, "Z" : -14.452816009521484, "Xs" : [-10.236943244934082], "Ys" : [0.0], "Zs" : [0.006016850471496582] }
+2018-12-15 17:25:17.3097 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 16, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:17.3653 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 16, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:17.4095 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 16, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.4341 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 16, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.4617 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 9, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.4785 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 17, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -9.8586559295654297, "Y" : 0.010000000707805157, "Z" : 1.9757289886474609 }
+2018-12-15 17:25:17.5077 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 17, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -9.8586559295654297, "Y" : 0.010000000707805157, "Z" : 1.9757289886474609 }
+2018-12-15 17:25:17.5777 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 17, "Error" : 0, "Message" : null }
+2018-12-15 17:25:17.6085 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 17, "Error" : 0, "Message" : null }
+2018-12-15 17:25:17.6238 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-11.75215, 0, -14.45282),(-9.858656, 0, 1.975729),
+2018-12-15 17:25:17.6432 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -11.579105377197266, "Y" : 0.0, "Z" : -12.801514625549316, "Xs" : [-9.8586559295654297], "Ys" : [0.0], "Zs" : [1.9757289886474609] }
+2018-12-15 17:25:17.6566 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -11.579105377197266, "Y" : 0.0, "Z" : -12.801514625549316, "Xs" : [-9.8586559295654297], "Ys" : [0.0], "Zs" : [1.9757289886474609] }
+2018-12-15 17:25:17.6566 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719307939935"), "X" : -11.579105377197266, "Y" : 0.0, "Z" : -12.801514625549316, "Xs" : [-9.8586559295654297], "Ys" : [0.0], "Zs" : [1.9757289886474609] }
+2018-12-15 17:25:17.6845 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 18, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:17.6941 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 18, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:17.7082 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 18, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.7276 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 18, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.7399 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 10, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.7620 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 19, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -9.7658624649047852, "Y" : 0.010000000707805157, "Z" : 1.9757251739501953 }
+2018-12-15 17:25:17.7858 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 19, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -9.7658624649047852, "Y" : 0.010000000707805157, "Z" : 1.9757251739501953 }
+2018-12-15 17:25:17.8034 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 19, "Error" : 0, "Message" : null }
+2018-12-15 17:25:17.8198 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 19, "Error" : 0, "Message" : null }
+2018-12-15 17:25:17.8338 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 20, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:17.8547 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 20, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:17.8691 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 20, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.8815 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 20, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.8962 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 11, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:17.9125 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 21, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -9.7658624649047852, "Y" : 0.010000000707805157, "Z" : 1.9757251739501953 }
+2018-12-15 17:25:17.9302 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 21, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -9.7658624649047852, "Y" : 0.010000000707805157, "Z" : 1.9757251739501953 }
+2018-12-15 17:25:17.9566 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 21, "Error" : 0, "Message" : null }
+2018-12-15 17:25:18.0259 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 21, "Error" : 0, "Message" : null }
+2018-12-15 17:25:18.0503 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 22, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:18.0864 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 22, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:18.1053 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 22, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:18.1273 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 22, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:18.1502 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 12, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:18.1785 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -7.5653829574584961, "Y" : 0.010000000707805157, "Z" : 2.2278041839599609 }
+2018-12-15 17:25:18.1969 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 23, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -7.5653829574584961, "Y" : 0.010000000707805157, "Z" : 2.2278041839599609 }
+2018-12-15 17:25:18.2288 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 23, "ActorId" : NumberLong("382719307939937"), "_id" : NumberLong(0), "X" : -7.5653829574584961, "Y" : 0.010000000707805157, "Z" : 2.2278041839599609 }
+2018-12-15 17:25:18.2567 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 23, "Error" : 0, "Message" : null }
+2018-12-15 17:25:18.2671 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 23, "Error" : 0, "Message" : null }
+2018-12-15 17:25:18.2829 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-11.294, 0, -10.35271),(-7.565383, 0, 2.227804),
+2018-12-15 17:25:18.2829 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -11.226919174194336, "Y" : 0.0, "Z" : -9.7765254974365234, "Xs" : [-7.5653829574584961], "Ys" : [0.0], "Zs" : [2.2278039455413818] }
+2018-12-15 17:25:18.3071 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719307612247"), "_id" : NumberLong("382719307939935"), "X" : -11.226919174194336, "Y" : 0.0, "Z" : -9.7765254974365234, "Xs" : [-7.5653829574584961], "Ys" : [0.0], "Zs" : [2.2278039455413818] }
+2018-12-15 17:25:18.3256 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719307939935"), "X" : -11.226919174194336, "Y" : 0.0, "Z" : -9.7765254974365234, "Xs" : [-7.5653829574584961], "Ys" : [0.0], "Zs" : [2.2278039455413818] }
+2018-12-15 17:25:18.3385 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 13, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:25:18.3511 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 24, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:18.3634 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 24, "ActorId" : NumberLong("382719307939937"), "Info" : "actor rpc request" }
+2018-12-15 17:25:18.3751 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 24, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:18.3751 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 24, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:18.4024 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 13, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:25:18.4594 AllServer 001 (Log.cs:51) { "_t" : "G2M_SessionDisconnect", "RpcId" : 25, "ActorId" : NumberLong("382719307939937") }
+2018-12-15 17:25:18.4968 AllServer 001 (Log.cs:51) { "_t" : "G2M_SessionDisconnect", "RpcId" : 25, "ActorId" : NumberLong("382719307939937") }
+2018-12-15 17:25:18.5236 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 25, "Error" : 0, "Message" : null }
+2018-12-15 17:25:18.5429 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 25, "Error" : 0, "Message" : null }
+2018-12-15 17:47:06.0289 AllServer 001 (Log.cs:51) { "_t" : "C2R_Login", "RpcId" : 1, "Account" : "111", "Password" : "111111" }
+2018-12-15 17:47:15.5311 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "111" }
+2018-12-15 17:47:15.9094 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "111" }
+2018-12-15 17:47:16.1247 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-480271851431143263") }
+2018-12-15 17:47:16.2064 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-480271851431143263") }
+2018-12-15 17:47:16.3340 AllServer 001 (Log.cs:51) { "_t" : "R2C_Login", "RpcId" : 1, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("-480271851431143263") }
+2018-12-15 17:47:16.5164 AllServer 001 (Log.cs:51) { "_t" : "C2R_Login", "RpcId" : 2, "Account" : "111", "Password" : "111111" }
+2018-12-15 17:47:16.6626 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "111" }
+2018-12-15 17:47:16.8301 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "111" }
+2018-12-15 17:47:16.9636 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-354053749076786212") }
+2018-12-15 17:47:17.1139 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-354053749076786212") }
+2018-12-15 17:47:17.3337 AllServer 001 (Log.cs:51) { "_t" : "R2C_Login", "RpcId" : 2, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("-354053749076786212") }
+2018-12-15 17:47:17.7661 AllServer 001 (Log.cs:51) { "_t" : "C2G_LoginGate", "RpcId" : 3, "Key" : NumberLong("-480271851431143263") }
+2018-12-15 17:47:17.8634 AllServer 001 (Log.cs:51) { "_t" : "G2C_LoginGate", "RpcId" : 3, "Error" : 0, "Message" : "", "PlayerId" : NumberLong("382719395954771") }
+2018-12-15 17:47:18.2941 AllServer 001 (Log.cs:51) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2018-12-15 17:47:18.8643 AllServer 001 (Log.cs:51) { "_t" : "C2G_PlayerInfo", "RpcId" : 4 }
+2018-12-15 17:47:19.2120 AllServer 001 (Log.cs:51) { "_t" : "G2C_PlayerInfo", "RpcId" : 4, "Error" : 0, "Message" : "", "PlayerInfo" : { "RpcId" : 0 }, "PlayerInfos" : [{ "RpcId" : 1 }, { "RpcId" : 2 }, { "RpcId" : 3 }], "TestRepeatedString" : ["9", "10"], "TestRepeatedInt32" : [4, 5, 6], "TestRepeatedInt64" : [NumberLong(7), NumberLong(8)] }
+2018-12-15 17:48:11.3732 AllServer 001 (Log.cs:51) { "_t" : "C2R_Login", "RpcId" : 1, "Account" : "2222", "Password" : "111111" }
+2018-12-15 17:48:11.5214 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 3, "Account" : "2222" }
+2018-12-15 17:48:11.8019 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 3, "Account" : "2222" }
+2018-12-15 17:48:11.9699 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 3, "Error" : 0, "Message" : null, "Key" : NumberLong("1721712392288533454") }
+2018-12-15 17:48:12.0920 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 3, "Error" : 0, "Message" : null, "Key" : NumberLong("1721712392288533454") }
+2018-12-15 17:48:12.2652 AllServer 001 (Log.cs:51) { "_t" : "R2C_Login", "RpcId" : 1, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("1721712392288533454") }
+2018-12-15 17:48:12.5979 AllServer 001 (Log.cs:51) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("1721712392288533454") }
+2018-12-15 17:48:12.6984 AllServer 001 (Log.cs:51) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong("382719399559280") }
+2018-12-15 17:48:13.0706 AllServer 001 (Log.cs:51) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2018-12-15 17:48:13.5100 AllServer 001 (Log.cs:51) { "_t" : "C2G_PlayerInfo", "RpcId" : 3 }
+2018-12-15 17:48:13.7713 AllServer 001 (Log.cs:51) { "_t" : "G2C_PlayerInfo", "RpcId" : 3, "Error" : 0, "Message" : "", "PlayerInfo" : { "RpcId" : 0 }, "PlayerInfos" : [{ "RpcId" : 1 }, { "RpcId" : 2 }, { "RpcId" : 3 }], "TestRepeatedString" : ["9", "10"], "TestRepeatedInt32" : [4, 5, 6], "TestRepeatedInt64" : [NumberLong(7), NumberLong(8)] }
+2018-12-15 17:48:17.9586 AllServer 001 (Log.cs:51) { "_t" : "C2G_EnterMap", "RpcId" : 1 }
+2018-12-15 17:48:18.2859 AllServer 001 (Log.cs:51) { "_t" : "G2M_CreateUnit", "RpcId" : 4, "PlayerId" : NumberLong("382719399559280"), "GateSessionId" : NumberLong("382719399559278") }
+2018-12-15 17:48:18.5034 AllServer 001 (Log.cs:51) { "_t" : "G2M_CreateUnit", "RpcId" : 4, "PlayerId" : NumberLong("382719399559280"), "GateSessionId" : NumberLong("382719399559278") }
+2018-12-15 17:48:18.8017 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddRequest", "RpcId" : 5, "Key" : NumberLong("382719399952501"), "InstanceId" : NumberLong("382719399952503") }
+2018-12-15 17:48:18.9989 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddRequest", "RpcId" : 5, "Key" : NumberLong("382719399952501"), "InstanceId" : NumberLong("382719399952503") }
+2018-12-15 17:48:19.3960 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddResponse", "RpcId" : 5, "Error" : 0, "Message" : null }
+2018-12-15 17:48:19.6149 AllServer 001 (Log.cs:51) { "_t" : "ObjectAddResponse", "RpcId" : 5, "Error" : 0, "Message" : null }
+2018-12-15 17:48:19.9558 AllServer 001 (Log.cs:51) { "_t" : "M2C_CreateUnits", "RpcId" : 0, "ActorId" : NumberLong("382719399559278"), "Units" : [{ "UnitId" : NumberLong("382719399952501"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0 }] }
+2018-12-15 17:48:20.2680 AllServer 001 (Log.cs:51) { "_t" : "M2C_CreateUnits", "RpcId" : 0, "ActorId" : NumberLong("382719399559278"), "Units" : [{ "UnitId" : NumberLong("382719399952501"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0 }] }
+2018-12-15 17:48:20.4867 AllServer 001 (Log.cs:51) { "_t" : "M2C_CreateUnits", "RpcId" : 0, "ActorId" : NumberLong(0), "Units" : [{ "UnitId" : NumberLong("382719399952501"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0 }] }
+2018-12-15 17:48:20.6996 AllServer 001 (Log.cs:51) { "_t" : "M2G_CreateUnit", "Units" : [], "RpcId" : 4, "Error" : 0, "Message" : null, "UnitId" : NumberLong("382719399952501") }
+2018-12-15 17:48:20.9673 AllServer 001 (Log.cs:51) { "_t" : "M2G_CreateUnit", "Units" : [], "RpcId" : 4, "Error" : 0, "Message" : null, "UnitId" : NumberLong("382719399952501") }
+2018-12-15 17:48:21.1947 AllServer 001 (Log.cs:51) { "_t" : "G2C_EnterMap", "RpcId" : 1, "Error" : 0, "Message" : "", "UnitId" : NumberLong("382719399952501"), "Units" : [] }
+2018-12-15 17:48:33.7973 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:34.0618 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 4, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:34.3248 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:34.5872 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 5, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:34.6838 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:34.8296 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 6, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:35.0652 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:35.4510 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 7, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:35.6321 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:35.7365 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 8, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:35.9231 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetRequest", "RpcId" : 6, "Key" : NumberLong("382719399952501") }
+2018-12-15 17:48:36.2064 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetRequest", "RpcId" : 6, "Key" : NumberLong("382719399952501") }
+2018-12-15 17:48:37.1425 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetResponse", "RpcId" : 6, "Error" : 0, "Message" : null, "InstanceId" : NumberLong("382719399952503") }
+2018-12-15 17:48:37.3431 AllServer 001 (Log.cs:51) { "_t" : "ObjectGetResponse", "RpcId" : 6, "Error" : 0, "Message" : null, "InstanceId" : NumberLong("382719399952503") }
+2018-12-15 17:48:37.6649 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 7, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:37.8665 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 7, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:38.0063 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 7, "Error" : 0, "Message" : null }
+2018-12-15 17:48:38.1408 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 7, "Error" : 0, "Message" : null }
+2018-12-15 17:48:39.1304 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-10, 0, -10),(-8.911612, 0, 3.380436),
+2018-12-15 17:48:39.4129 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0, "Xs" : [-8.9116115570068359], "Ys" : [0.0], "Zs" : [3.3804361820220947] }
+2018-12-15 17:48:39.7998 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0, "Xs" : [-8.9116115570068359], "Ys" : [0.0], "Zs" : [3.3804361820220947] }
+2018-12-15 17:48:40.0744 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -10.0, "Y" : 0.0, "Z" : -10.0, "Xs" : [-8.9116115570068359], "Ys" : [0.0], "Zs" : [3.3804361820220947] }
+2018-12-15 17:48:40.4100 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 8, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:40.5966 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 8, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:40.7709 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 8, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:41.1416 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 8, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:41.3988 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 4, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:41.8002 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 9, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:41.9997 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 9, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:42.4427 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 9, "Error" : 0, "Message" : null }
+2018-12-15 17:48:42.8217 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 9, "Error" : 0, "Message" : null }
+2018-12-15 17:48:43.0985 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 10, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:43.4647 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 10, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:43.7146 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 10, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:44.0732 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 10, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:44.4202 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 5, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:44.7709 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 11, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:44.9325 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 11, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:45.4201 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 11, "Error" : 0, "Message" : null }
+2018-12-15 17:48:45.7116 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 11, "Error" : 0, "Message" : null }
+2018-12-15 17:48:45.9545 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 12, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:46.0793 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 12, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:46.1898 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 12, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:46.3568 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 12, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:46.4721 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 6, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:46.5613 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 13, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:47.0402 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 13, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:47.3784 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 13, "Error" : 0, "Message" : null }
+2018-12-15 17:48:47.6443 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 13, "Error" : 0, "Message" : null }
+2018-12-15 17:48:48.0988 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 14, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:48.5038 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 14, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:48.7787 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 14, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:49.0960 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 14, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:49.3491 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 7, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:49.5373 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 15, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:49.7629 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 15, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -8.9116115570068359, "Y" : 0.010000000707805157, "Z" : 3.3804359436035156 }
+2018-12-15 17:48:49.9754 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 15, "Error" : 0, "Message" : null }
+2018-12-15 17:48:50.1270 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 15, "Error" : 0, "Message" : null }
+2018-12-15 17:48:50.1949 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 16, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:50.2892 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 16, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:50.3736 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 16, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:50.4624 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 16, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:50.5802 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 8, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:50.6740 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -6.1485385894775391, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:50.7251 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 17, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.1485385894775391, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:50.7916 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 17, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.1485385894775391, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:50.8461 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 17, "Error" : 0, "Message" : null }
+2018-12-15 17:48:50.9417 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 17, "Error" : 0, "Message" : null }
+2018-12-15 17:48:51.0078 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-8.911612, 0, 3.380436),(-6.148539, 0, 14.88562),
+2018-12-15 17:48:51.1683 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -8.9116115570068359, "Y" : 0.0, "Z" : 3.3804361820220947, "Xs" : [-6.1485385894775391], "Ys" : [0.0], "Zs" : [14.885621070861816] }
+2018-12-15 17:48:51.3686 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -8.9116115570068359, "Y" : 0.0, "Z" : 3.3804361820220947, "Xs" : [-6.1485385894775391], "Ys" : [0.0], "Zs" : [14.885621070861816] }
+2018-12-15 17:48:51.7456 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -8.9116115570068359, "Y" : 0.0, "Z" : 3.3804361820220947, "Xs" : [-6.1485385894775391], "Ys" : [0.0], "Zs" : [14.885621070861816] }
+2018-12-15 17:48:52.0823 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 9, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:52.4178 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 18, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:52.7180 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 18, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:53.0765 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 18, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:53.3521 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 18, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:53.7530 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 9, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:54.0100 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -6.1485385894775391, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:54.2523 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 19, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.1485385894775391, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:54.4379 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 19, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.1485385894775391, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:54.5724 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 19, "Error" : 0, "Message" : null }
+2018-12-15 17:48:54.9509 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 19, "Error" : 0, "Message" : null }
+2018-12-15 17:48:55.0950 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 10, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:55.2641 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 20, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:55.5106 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 20, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:55.6472 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 20, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:55.8787 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 20, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:55.9451 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 10, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:56.1123 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:56.2447 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 21, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:56.5808 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 21, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:48:56.8574 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 21, "Error" : 0, "Message" : null }
+2018-12-15 17:48:57.0584 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 21, "Error" : 0, "Message" : null }
+2018-12-15 17:48:57.2613 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-8.911612, 0, 3.380436),(-6.254354, 0, 14.88562),
+2018-12-15 17:48:57.4877 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.1485385894775391, "Y" : 0.0, "Z" : 14.885621070861816, "Xs" : [-6.2543540000915527], "Ys" : [0.0], "Zs" : [14.885621070861816] }
+2018-12-15 17:48:57.6972 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.1485385894775391, "Y" : 0.0, "Z" : 14.885621070861816, "Xs" : [-6.2543540000915527], "Ys" : [0.0], "Zs" : [14.885621070861816] }
+2018-12-15 17:48:57.8965 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -6.1485385894775391, "Y" : 0.0, "Z" : 14.885621070861816, "Xs" : [-6.2543540000915527], "Ys" : [0.0], "Zs" : [14.885621070861816] }
+2018-12-15 17:48:58.1118 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 11, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:48:58.3211 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 22, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:58.6957 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 22, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:48:58.9974 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 22, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:59.4586 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 22, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:48:59.9770 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 11, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:00.5437 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:49:00.7278 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 23, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:49:01.1235 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 23, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:49:01.4716 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 23, "Error" : 0, "Message" : null }
+2018-12-15 17:49:01.7095 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 23, "Error" : 0, "Message" : null }
+2018-12-15 17:49:02.0642 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 12, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:02.2687 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 24, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:02.4767 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 24, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:02.6529 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 24, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:02.8885 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 24, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:03.1352 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 12, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:03.2071 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:49:03.2594 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 25, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:49:03.3044 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 25, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.2543540000915527, "Y" : 0.010000000707805157, "Z" : 14.8856201171875 }
+2018-12-15 17:49:03.3439 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 25, "Error" : 0, "Message" : null }
+2018-12-15 17:49:03.3848 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 25, "Error" : 0, "Message" : null }
+2018-12-15 17:49:03.4610 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 13, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:03.4885 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 26, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:03.5285 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 26, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:03.5903 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 26, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:03.6077 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 26, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:03.6611 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 13, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:03.7397 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -6.9868335723876953, "Y" : 0.010000000707805157, "Z" : 13.593271255493164 }
+2018-12-15 17:49:03.8224 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 27, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.9868335723876953, "Y" : 0.010000000707805157, "Z" : 13.593271255493164 }
+2018-12-15 17:49:03.8896 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 27, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.9868335723876953, "Y" : 0.010000000707805157, "Z" : 13.593271255493164 }
+2018-12-15 17:49:03.9377 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 27, "Error" : 0, "Message" : null }
+2018-12-15 17:49:03.9928 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 27, "Error" : 0, "Message" : null }
+2018-12-15 17:49:04.0473 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-6.148539, 0, 14.88562),(-6.986833, 0, 13.59327),
+2018-12-15 17:49:04.0856 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.2543540000915527, "Y" : 0.0, "Z" : 14.885621070861816, "Xs" : [-6.9868330955505371], "Ys" : [0.0], "Zs" : [13.593271255493164] }
+2018-12-15 17:49:04.1464 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.2543540000915527, "Y" : 0.0, "Z" : 14.885621070861816, "Xs" : [-6.9868330955505371], "Ys" : [0.0], "Zs" : [13.593271255493164] }
+2018-12-15 17:49:04.2101 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -6.2543540000915527, "Y" : 0.0, "Z" : 14.885621070861816, "Xs" : [-6.9868330955505371], "Ys" : [0.0], "Zs" : [13.593271255493164] }
+2018-12-15 17:49:04.3011 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 14, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:04.3926 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 28, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:04.4286 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 28, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:04.4572 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 28, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:04.5226 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 28, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:04.5598 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 14, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:04.6315 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -7.1994915008544922, "Y" : 0.010000000707805157, "Z" : 12.488075256347656 }
+2018-12-15 17:49:04.6557 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 29, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -7.1994915008544922, "Y" : 0.010000000707805157, "Z" : 12.488075256347656 }
+2018-12-15 17:49:04.7052 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 29, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -7.1994915008544922, "Y" : 0.010000000707805157, "Z" : 12.488075256347656 }
+2018-12-15 17:49:04.7240 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 29, "Error" : 0, "Message" : null }
+2018-12-15 17:49:04.7896 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 29, "Error" : 0, "Message" : null }
+2018-12-15 17:49:04.8102 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-6.254353, 0, 14.88562),(-7.199491, 0, 12.48808),
+2018-12-15 17:49:04.8830 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.9868330955505371, "Y" : 0.0, "Z" : 13.593271255493164, "Xs" : [-7.199491024017334], "Ys" : [0.0], "Zs" : [12.488076210021973] }
+2018-12-15 17:49:05.0001 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.9868330955505371, "Y" : 0.0, "Z" : 13.593271255493164, "Xs" : [-7.199491024017334], "Ys" : [0.0], "Zs" : [12.488076210021973] }
+2018-12-15 17:49:05.0753 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -6.9868330955505371, "Y" : 0.0, "Z" : 13.593271255493164, "Xs" : [-7.199491024017334], "Ys" : [0.0], "Zs" : [12.488076210021973] }
+2018-12-15 17:49:05.1405 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 15, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:05.1907 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 30, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:05.2096 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 30, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:05.2736 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 30, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:05.3236 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 30, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:05.3782 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 15, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:05.4556 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -6.3206844329833984, "Y" : 0.010000000707805157, "Z" : 8.2937469482421875 }
+2018-12-15 17:49:05.5067 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 31, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.3206844329833984, "Y" : 0.010000000707805157, "Z" : 8.2937469482421875 }
+2018-12-15 17:49:05.5461 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 31, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -6.3206844329833984, "Y" : 0.010000000707805157, "Z" : 8.2937469482421875 }
+2018-12-15 17:49:05.5935 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 31, "Error" : 0, "Message" : null }
+2018-12-15 17:49:05.6417 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 31, "Error" : 0, "Message" : null }
+2018-12-15 17:49:05.6733 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-6.986834, 0, 13.59327),(-6.320684, 0, 8.293747),
+2018-12-15 17:49:05.7170 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -7.199491024017334, "Y" : 0.0, "Z" : 12.488076210021973, "Xs" : [-6.3206844329833984], "Ys" : [0.0], "Zs" : [8.2937469482421875] }
+2018-12-15 17:49:05.7763 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -7.199491024017334, "Y" : 0.0, "Z" : 12.488076210021973, "Xs" : [-6.3206844329833984], "Ys" : [0.0], "Zs" : [8.2937469482421875] }
+2018-12-15 17:49:05.8341 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -7.199491024017334, "Y" : 0.0, "Z" : 12.488076210021973, "Xs" : [-6.3206844329833984], "Ys" : [0.0], "Zs" : [8.2937469482421875] }
+2018-12-15 17:49:05.8911 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 16, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:05.9292 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 32, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:05.9559 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 32, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:06.0158 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 32, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:06.0469 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 32, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:06.0734 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 16, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:06.1109 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -5.3839235305786133, "Y" : 0.010000000707805157, "Z" : -0.47304725646972656 }
+2018-12-15 17:49:06.1292 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 33, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -5.3839235305786133, "Y" : 0.010000000707805157, "Z" : -0.47304725646972656 }
+2018-12-15 17:49:06.1459 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 33, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -5.3839235305786133, "Y" : 0.010000000707805157, "Z" : -0.47304725646972656 }
+2018-12-15 17:49:06.4502 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 33, "Error" : 0, "Message" : null }
+2018-12-15 17:49:06.5444 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 33, "Error" : 0, "Message" : null }
+2018-12-15 17:49:06.5919 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-7.199492, 0, 12.48808),(-5.383924, 0, -0.4730468),
+2018-12-15 17:49:06.6407 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.4314327239990234, "Y" : 0.0, "Z" : 8.8223209381103516, "Xs" : [-5.3839235305786133], "Ys" : [0.0], "Zs" : [-0.47304677963256836] }
+2018-12-15 17:49:06.7090 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -6.4314327239990234, "Y" : 0.0, "Z" : 8.8223209381103516, "Xs" : [-5.3839235305786133], "Ys" : [0.0], "Zs" : [-0.47304677963256836] }
+2018-12-15 17:49:06.7823 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -6.4314327239990234, "Y" : 0.0, "Z" : 8.8223209381103516, "Xs" : [-5.3839235305786133], "Ys" : [0.0], "Zs" : [-0.47304677963256836] }
+2018-12-15 17:49:06.8744 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 17, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:07.0063 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 34, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:07.0935 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 34, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:07.1564 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 34, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:07.2209 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 34, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:07.2771 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 17, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:07.3904 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -5.4141483306884766, "Y" : 0.010000000707805157, "Z" : -0.11409187316894531 }
+2018-12-15 17:49:07.4114 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 35, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -5.4141483306884766, "Y" : 0.010000000707805157, "Z" : -0.11409187316894531 }
+2018-12-15 17:49:07.4781 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 35, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -5.4141483306884766, "Y" : 0.010000000707805157, "Z" : -0.11409187316894531 }
+2018-12-15 17:49:07.5077 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 35, "Error" : 0, "Message" : null }
+2018-12-15 17:49:07.5460 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 35, "Error" : 0, "Message" : null }
+2018-12-15 17:49:07.6170 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-6.431433, 0, 8.822321),(-5.414148, 0, -0.1140924),
+2018-12-15 17:49:07.8043 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -5.9093585014343262, "Y" : 0.0, "Z" : 4.189549446105957, "Xs" : [-5.4141483306884766], "Ys" : [0.0], "Zs" : [-0.11409235000610352] }
+2018-12-15 17:49:07.8776 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -5.9093585014343262, "Y" : 0.0, "Z" : 4.189549446105957, "Xs" : [-5.4141483306884766], "Ys" : [0.0], "Zs" : [-0.11409235000610352] }
+2018-12-15 17:49:07.9415 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -5.9093585014343262, "Y" : 0.0, "Z" : 4.189549446105957, "Xs" : [-5.4141483306884766], "Ys" : [0.0], "Zs" : [-0.11409235000610352] }
+2018-12-15 17:49:08.0371 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 18, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:08.0690 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 36, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:08.1416 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 36, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:08.1704 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 36, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:08.2560 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 36, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:08.2764 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 18, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:08.3244 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -5.4141483306884766, "Y" : 0.010000000707805157, "Z" : -0.11409187316894531 }
+2018-12-15 17:49:08.3757 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 37, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -5.4141483306884766, "Y" : 0.010000000707805157, "Z" : -0.11409187316894531 }
+2018-12-15 17:49:08.4192 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 37, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -5.4141483306884766, "Y" : 0.010000000707805157, "Z" : -0.11409187316894531 }
+2018-12-15 17:49:08.4752 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 37, "Error" : 0, "Message" : null }
+2018-12-15 17:49:08.5415 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 37, "Error" : 0, "Message" : null }
+2018-12-15 17:49:08.6021 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 19, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:08.6554 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 38, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:08.7075 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 38, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:08.7694 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 38, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:08.7903 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 38, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:08.8272 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 19, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:08.8805 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:08.9215 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 39, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:08.9631 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 39, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:09.0301 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 39, "Error" : 0, "Message" : null }
+2018-12-15 17:49:09.0995 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 39, "Error" : 0, "Message" : null }
+2018-12-15 17:49:09.1230 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-5.909359, 0, 4.189549),(-13.11855, 0, 8.007482),
+2018-12-15 17:49:09.2071 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -5.4141483306884766, "Y" : 0.0, "Z" : -0.11409235000610352, "Xs" : [-13.118547439575195], "Ys" : [0.0], "Zs" : [8.007481575012207] }
+2018-12-15 17:49:09.2738 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -5.4141483306884766, "Y" : 0.0, "Z" : -0.11409235000610352, "Xs" : [-13.118547439575195], "Ys" : [0.0], "Zs" : [8.007481575012207] }
+2018-12-15 17:49:09.3338 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -5.4141483306884766, "Y" : 0.0, "Z" : -0.11409235000610352, "Xs" : [-13.118547439575195], "Ys" : [0.0], "Zs" : [8.007481575012207] }
+2018-12-15 17:49:09.3824 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 20, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:09.4555 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 40, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:09.4919 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 40, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:09.5406 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 40, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:09.5743 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 40, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:09.6097 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 20, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:09.7286 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:09.7605 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 41, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:09.8313 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 41, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:09.8590 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 41, "Error" : 0, "Message" : null }
+2018-12-15 17:49:09.9241 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 41, "Error" : 0, "Message" : null }
+2018-12-15 17:49:09.9608 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 21, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:09.9898 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 42, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:10.0374 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 42, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:10.1080 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 42, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:10.1301 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 42, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:10.2246 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 21, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:10.2606 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:10.5221 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 43, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:10.6054 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 43, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:10.6274 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 43, "Error" : 0, "Message" : null }
+2018-12-15 17:49:10.6736 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 43, "Error" : 0, "Message" : null }
+2018-12-15 17:49:10.7209 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 22, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:10.7358 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 44, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:10.7610 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 44, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:10.8067 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 44, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:10.8768 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 44, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:10.9053 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 22, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:11.0037 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:11.0253 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 45, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:11.0789 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 45, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:11.1066 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 45, "Error" : 0, "Message" : null }
+2018-12-15 17:49:11.1443 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 45, "Error" : 0, "Message" : null }
+2018-12-15 17:49:11.2088 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 23, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:11.2502 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 46, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:11.3194 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 46, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:11.3440 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 46, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:11.4039 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 46, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:11.4981 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 23, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:11.5087 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:11.5262 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 47, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:11.5876 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 47, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:11.6476 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 47, "Error" : 0, "Message" : null }
+2018-12-15 17:49:11.7052 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 47, "Error" : 0, "Message" : null }
+2018-12-15 17:49:11.7440 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 24, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:11.7739 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 48, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:11.7942 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 48, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:11.8270 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 48, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:11.8858 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 48, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:11.9268 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 24, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:11.9404 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:12.0181 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 49, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:12.0900 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 49, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:12.1159 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 49, "Error" : 0, "Message" : null }
+2018-12-15 17:49:12.1861 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 49, "Error" : 0, "Message" : null }
+2018-12-15 17:49:12.2039 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 25, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:12.2544 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 50, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:12.2906 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 50, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:12.3264 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 50, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:12.3465 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 50, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:12.4086 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 25, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:12.4243 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:12.4590 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 51, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:12.5611 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 51, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:12.5946 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 51, "Error" : 0, "Message" : null }
+2018-12-15 17:49:12.6582 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 51, "Error" : 0, "Message" : null }
+2018-12-15 17:49:12.6908 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 26, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:12.7621 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 52, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:12.8590 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 52, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:12.9087 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 52, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:12.9414 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 52, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:12.9987 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 26, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:13.0592 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:13.1016 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 53, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:13.1585 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 53, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:13.1768 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 53, "Error" : 0, "Message" : null }
+2018-12-15 17:49:13.2104 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 53, "Error" : 0, "Message" : null }
+2018-12-15 17:49:13.2431 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 27, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:13.3202 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 54, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:13.3840 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 54, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:13.3984 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 54, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:13.4257 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 54, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:13.5424 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 27, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:13.5845 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:13.6347 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 55, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:13.6760 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 55, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:13.7544 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 55, "Error" : 0, "Message" : null }
+2018-12-15 17:49:13.7851 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 55, "Error" : 0, "Message" : null }
+2018-12-15 17:49:13.8244 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 28, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:13.8442 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 56, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:13.8767 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 56, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:13.9101 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 56, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:13.9712 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 56, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:14.0004 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 28, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:14.0714 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:14.0849 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 57, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:14.1062 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 57, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -13.118548393249512, "Y" : 0.010000000707805157, "Z" : 8.0074825286865234 }
+2018-12-15 17:49:14.1752 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 57, "Error" : 0, "Message" : null }
+2018-12-15 17:49:14.2214 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 57, "Error" : 0, "Message" : null }
+2018-12-15 17:49:14.2447 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 29, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:14.3064 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 58, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:14.3410 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 58, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:14.3704 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 58, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:14.4106 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 58, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:14.4672 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 29, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:14.4801 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -12.976274490356445, "Y" : 0.010000000707805157, "Z" : 9.0174999237060547 }
+2018-12-15 17:49:14.4915 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 59, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -12.976274490356445, "Y" : 0.010000000707805157, "Z" : 9.0174999237060547 }
+2018-12-15 17:49:14.5645 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 59, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -12.976274490356445, "Y" : 0.010000000707805157, "Z" : 9.0174999237060547 }
+2018-12-15 17:49:14.6173 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 59, "Error" : 0, "Message" : null }
+2018-12-15 17:49:14.6340 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 59, "Error" : 0, "Message" : null }
+2018-12-15 17:49:14.6695 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-5.414148, 0, -0.1140924),(-12.97627, 0, 9.017499),
+2018-12-15 17:49:14.7333 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -13.118547439575195, "Y" : 0.0, "Z" : 8.007481575012207, "Xs" : [-12.976274490356445], "Ys" : [0.0], "Zs" : [9.0174989700317383] }
+2018-12-15 17:49:14.7544 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -13.118547439575195, "Y" : 0.0, "Z" : 8.007481575012207, "Xs" : [-12.976274490356445], "Ys" : [0.0], "Zs" : [9.0174989700317383] }
+2018-12-15 17:49:14.7908 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -13.118547439575195, "Y" : 0.0, "Z" : 8.007481575012207, "Xs" : [-12.976274490356445], "Ys" : [0.0], "Zs" : [9.0174989700317383] }
+2018-12-15 17:49:14.8762 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 30, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:14.9504 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 60, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:14.9986 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 60, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:15.0604 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 60, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:15.1223 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 60, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:15.1566 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 30, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:15.2168 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 0, "ActorId" : NumberLong(0), "_id" : NumberLong(0), "X" : -12.072294235229492, "Y" : 0.010000000707805157, "Z" : 8.2937431335449219 }
+2018-12-15 17:49:15.2702 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 61, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -12.072294235229492, "Y" : 0.010000000707805157, "Z" : 8.2937431335449219 }
+2018-12-15 17:49:15.2874 AllServer 001 (Log.cs:51) { "_t" : "Frame_ClickMap", "RpcId" : 61, "ActorId" : NumberLong("382719399952503"), "_id" : NumberLong(0), "X" : -12.072294235229492, "Y" : 0.010000000707805157, "Z" : 8.2937431335449219 }
+2018-12-15 17:49:15.3557 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 61, "Error" : 0, "Message" : null }
+2018-12-15 17:49:15.4109 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 61, "Error" : 0, "Message" : null }
+2018-12-15 17:49:15.4301 AllServer 001 (UnitPathComponentSystem.cs:45) find result: (-13.11855, 0, 8.007482),(-12.0723, 0, 8.293743),
+2018-12-15 17:49:15.4918 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -12.976274490356445, "Y" : 0.0, "Z" : 9.0174989700317383, "Xs" : [-12.072295188903809], "Ys" : [0.0], "Zs" : [8.2937431335449219] }
+2018-12-15 17:49:15.5103 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong("382719399559278"), "_id" : NumberLong("382719399952501"), "X" : -12.976274490356445, "Y" : 0.0, "Z" : 9.0174989700317383, "Xs" : [-12.072295188903809], "Ys" : [0.0], "Zs" : [8.2937431335449219] }
+2018-12-15 17:49:15.5598 AllServer 001 (Log.cs:51) { "_t" : "M2C_PathfindingResult", "ActorId" : NumberLong(0), "_id" : NumberLong("382719399952501"), "X" : -12.976274490356445, "Y" : 0.0, "Z" : 9.0174989700317383, "Xs" : [-12.072295188903809], "Ys" : [0.0], "Zs" : [8.2937431335449219] }
+2018-12-15 17:49:15.6390 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 31, "ActorId" : NumberLong(0), "Info" : "actor rpc request" }
+2018-12-15 17:49:15.7536 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 62, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:15.8093 AllServer 001 (Log.cs:51) { "_t" : "C2M_TestActorRequest", "RpcId" : 62, "ActorId" : NumberLong("382719399952503"), "Info" : "actor rpc request" }
+2018-12-15 17:49:15.8508 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 62, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:15.8874 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 62, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:15.9024 AllServer 001 (Log.cs:51) { "_t" : "M2C_TestActorResponse", "RpcId" : 31, "Error" : 0, "Message" : "", "Info" : "actor rpc response" }
+2018-12-15 17:49:15.9321 AllServer 001 (Log.cs:51) { "_t" : "G2M_SessionDisconnect", "RpcId" : 63, "ActorId" : NumberLong("382719399952503") }
+2018-12-15 17:49:16.0061 AllServer 001 (Log.cs:51) { "_t" : "G2M_SessionDisconnect", "RpcId" : 63, "ActorId" : NumberLong("382719399952503") }
+2018-12-15 17:49:16.0204 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 63, "Error" : 0, "Message" : null }
+2018-12-15 17:49:16.0708 AllServer 001 (Log.cs:51) { "_t" : "ActorResponse", "RpcId" : 63, "Error" : 0, "Message" : null }

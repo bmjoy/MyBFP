@@ -1,0 +1,16 @@
+2018-12-15 17:47:42.3158 AllServer 001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in H:\ETBFP\ET-master\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in H:\ETBFP\ET-master\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in H:\ETBFP\ET-master\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in H:\ETBFP\ET-master\Unity\Assets\Model\Base\Object\EventSystem.cs:line 452 
+ OnRecvComplete at offset 290 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:234:5
+OnError at offset 134 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Module\Message\Session.cs:54:5
+Remove at offset 148 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Module\Message\NetworkComponent.cs:90:4
+Dispose at offset 142 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Module\Message\Session.cs:68:4
+Dispose at offset 238 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Base\Object\Entity.cs:43:6
+Dispose at offset 121 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Base\Object\Component.cs:75:4
+Destroy at offset 332 in file:line:column H:\ETBFP\ET-master\Unity\Assets\Model\Base\Object\EventSystem.cs:452:6
+Error at offset 124 in file:line:column H:\ETBFP\ET-master\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column H:\ETBFP\ET-master\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+

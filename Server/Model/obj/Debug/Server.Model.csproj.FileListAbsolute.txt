@@ -1,0 +1,13 @@
+H:\ETBFP\ET-master\Bin\libkcp.dylib
+H:\ETBFP\ET-master\Bin\libkcp.so
+H:\ETBFP\ET-master\Bin\kcp.dll
+H:\ETBFP\ET-master\Bin\Model.deps.json
+H:\ETBFP\ET-master\Bin\Model.dll
+H:\ETBFP\ET-master\Bin\Model.pdb
+H:\ETBFP\ET-master\Server\Model\obj\Debug\Server.Model.csprojAssemblyReference.cache
+H:\ETBFP\ET-master\Server\Model\obj\Debug\Server.Model.csproj.CoreCompileInputs.cache
+H:\ETBFP\ET-master\Server\Model\obj\Debug\Server.Model.AssemblyInfoInputs.cache
+H:\ETBFP\ET-master\Server\Model\obj\Debug\Server.Model.AssemblyInfo.cs
+H:\ETBFP\ET-master\Server\Model\obj\Debug\Server.Model.csproj.CopyComplete
+H:\ETBFP\ET-master\Server\Model\obj\Debug\Model.dll
+H:\ETBFP\ET-master\Server\Model\obj\Debug\Model.pdb

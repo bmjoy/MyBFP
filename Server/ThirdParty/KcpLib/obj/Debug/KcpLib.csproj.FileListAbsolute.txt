@@ -1,0 +1,12 @@
+H:\ETBFP\ET-master\Bin\libkcp.dylib
+H:\ETBFP\ET-master\Bin\libkcp.so
+H:\ETBFP\ET-master\Bin\kcp.dll
+H:\ETBFP\ET-master\Bin\KcpLib.deps.json
+H:\ETBFP\ET-master\Bin\KcpLib.dll
+H:\ETBFP\ET-master\Bin\KcpLib.pdb
+H:\ETBFP\ET-master\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csproj.CoreCompileInputs.cache
+H:\ETBFP\ET-master\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.AssemblyInfoInputs.cache
+H:\ETBFP\ET-master\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.AssemblyInfo.cs
+H:\ETBFP\ET-master\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
+H:\ETBFP\ET-master\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb
+H:\ETBFP\ET-master\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csprojAssemblyReference.cache

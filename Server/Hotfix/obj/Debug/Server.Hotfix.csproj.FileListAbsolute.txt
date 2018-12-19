@@ -1,0 +1,13 @@
+H:\ETBFP\ET-master\Bin\libkcp.dylib
+H:\ETBFP\ET-master\Bin\libkcp.so
+H:\ETBFP\ET-master\Bin\kcp.dll
+H:\ETBFP\ET-master\Bin\Hotfix.deps.json
+H:\ETBFP\ET-master\Bin\Hotfix.dll
+H:\ETBFP\ET-master\Bin\Hotfix.pdb
+H:\ETBFP\ET-master\Server\Hotfix\obj\Debug\Server.Hotfix.csprojAssemblyReference.cache
+H:\ETBFP\ET-master\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CoreCompileInputs.cache
+H:\ETBFP\ET-master\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfoInputs.cache
+H:\ETBFP\ET-master\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfo.cs
+H:\ETBFP\ET-master\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CopyComplete
+H:\ETBFP\ET-master\Server\Hotfix\obj\Debug\Hotfix.dll
+H:\ETBFP\ET-master\Server\Hotfix\obj\Debug\Hotfix.pdb

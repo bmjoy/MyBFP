@@ -1,0 +1,10 @@
+H:\ETBFP\ET-master\Bin\MongoDB.Driver.Core.deps.json
+H:\ETBFP\ET-master\Bin\MongoDB.Driver.Core.dll
+H:\ETBFP\ET-master\Bin\MongoDB.Driver.Core.pdb
+H:\ETBFP\ET-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\MongoDB.Driver.Core.csprojAssemblyReference.cache
+H:\ETBFP\ET-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\MongoDB.Driver.Core.csproj.CoreCompileInputs.cache
+H:\ETBFP\ET-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\MongoDB.Driver.Core.AssemblyInfoInputs.cache
+H:\ETBFP\ET-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\MongoDB.Driver.Core.AssemblyInfo.cs
+H:\ETBFP\ET-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\MongoDB.Driver.Core.csproj.CopyComplete
+H:\ETBFP\ET-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\MongoDB.Driver.Core.dll
+H:\ETBFP\ET-master\Server\ThirdParty\MongodbDriver\DotNetCoreDriver\MongoDB.Driver.Core\obj\Debug\MongoDB.Driver.Core.pdb
